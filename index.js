@@ -64,7 +64,7 @@ const { limit } = require('./database/menu/limit*/
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const darkkey = 'apidark';
-const BotName = 'darkbot'; 
+const BotName = 'BOT OPRESSOR'; 
 const instagram = 'http://www.instagram.com/'; 
 const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
@@ -250,7 +250,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Olá @${num.split('@')[0]}\nBem vindo ao inferno seu negro imundo*${mdata.subject}*\n\nEspero que goste vc se foda de todo meu coração ❤️`
+				teks = `Olá @${num.split('@')[0]}\n Bem vindo ao inferno seu negro imundo*${mdata.subject}*\n\nEspero que goste vc se foda de todo meu coração ❤️`
 				let buffer = awat getbufferer(ppimg)
 				dark.sendMess(mdata.id, buffer, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 				dark.sendMess(from, axios.get, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -597,12 +597,12 @@ const get = require('got')
 			reply("por acaso eu sou vc agr?")
 	}
 	
-			if (messC.includes("but")){
+			if (messC.includes("bixcoita")){
 			dark.updatePresence(from, Presence.composing)
-			reply("é bot seu analfabeto")
+			reply("o amor da minha vida inteirinha 🥰")
 	}
 	
-			if (messC.includes("darkbot")){
+			if (messC.includes("vini")){
 			dark.updatePresence(from, Presence.composing)
 			reply("oiii")
 	}
@@ -622,9 +622,9 @@ const get = require('got')
 			reply("ai mano, vc acha legal usar um argumento machista?")
 	}
 	
-			if (messC.includes("maria")){
+			if (messC.includes("free fire")){
 			dark.updatePresence(from, Presence.composing)
-			reply("amo ela")
+			reply("para de ser boi mlk 🥵")
 	}
 	
 		if (messC.includes("corno")){
